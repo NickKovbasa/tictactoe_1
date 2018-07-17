@@ -8,11 +8,19 @@
     tools:context=".SplashActivity"
     android:background="#ffffff">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="logo"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="logo"
 
-        android:src="@drawable/cat_and_dog_big"/>
+            android:src="@drawable/tic_tac_toe"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
